@@ -1,0 +1,230 @@
+@media only screen and (max-width: 767px) {
+
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+* li {
+    list-style: none;  
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    overflow: auto;
+}
+
+.container {
+	width: 90vw;
+	margin: 0 auto;
+}
+
+.header {
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("2.jpg");
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	background-position: bottom;
+	background-attachment: fixed;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: 700;
+	float: left;
+	margin-top: 30px;
+	color: white;
+}
+
+.navigation {
+	display: none;
+}
+
+.hamburger {
+	display: block;
+	float: right;
+	margin-top: -50px;
+	position: relative;
+}
+
+.hamburger span {
+	background: white;
+	width: 30px;
+	height: 5px;
+	display: block;
+	margin-bottom: 4px;
+}
+
+nav ul {
+	display: none;
+}
+
+.hero-text {
+	position: absolute; 
+	top: 40%; 
+}
+
+.hero-text h2 {
+	font-size: 70px;
+	color: white;
+	font-weight: 400;
+}
+
+.hero-text p {
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 50px;
+	color: white;
+	font-weight: 400;
+}
+
+.hero-text a {
+	font-size: 16px;
+	background-color: white;
+	color: black;
+	padding: 22px 56px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.hero-text a:hover {
+	background-color:rgba(255,255,255,0.5);
+}
+
+.mission, .tours {
+	display: flex;
+}
+
+.mission {
+	align-content: center;
+	flex-direction: column;
+}
+
+.tours {
+	align-content: center;
+	flex-direction: column;
+}
+
+.main h3 {
+	font-size: 50px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.main h4 {
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.main p {
+	font-size: 20px;
+	line-height: 145%;
+	padding-top: 10px;
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+
+.cheese-info img {
+	height: auto;
+}
+
+.cheese-info img:hover{
+	opacity: 0.5;
+}
+
+.mission img, .tours img {
+	height: 480px;
+	width: 480px;
+	object-fit: cover;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cheese-info {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.main {
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 90vw;
+}
+
+.cheese-info {
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.mix, .cream, .parmesan {
+	margin: 0 auto;
+}
+
+.mix, .cream, .parmesan, .cheese-info img {
+	width: 460px;
+}
+
+.cheese-info h4, .cheese h3 {
+	text-align: center;
+}
+
+.mission-text {
+	width: 460px;
+	margin: 0 auto;
+}
+
+.tours-text {
+	width: 460px;
+	margin: 0 auto;
+}
+
+.social ul {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.social img {
+	width: auto;
+	height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+	filter: grayscale(100%); /* FF 35+ */
+}
+
+.social img:hover {
+	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+	filter: grayscale(0%); /* FF 35+ */
+}
+
+.footer  {
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.footer h5 {
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 20px;
+}
+
+}
